@@ -19,10 +19,10 @@ class GetProducts extends Component {
     }
 
     render() {
-        let allProducts;
+        let allProduct;
         let mainData;
 
-        allProducts = this.context.all_products.map(({ id, nombreProducto, referencia, precio, peso, categoria, stock, fechaCreacion, fechaVentaUltima, isEditing }) => {
+        allProduct = this.context.all_products.map(({ id, nombreProducto, referencia, precio, peso, categoria, stock, fechaCreacion, fechaVentaUltima, isEditing }) => {
             return isEditing === true ? (
                 <tr key={id}>
                     <td><input className="form-control" type="text" ref={(item) => this.nombreProducto = item} defaultValue={nombreProducto} /></td>
@@ -73,7 +73,7 @@ class GetProducts extends Component {
                         </tr>
                     </thead>
                     <tbody>
-                        {allProducts}
+                        {allProduct}
                     </tbody>
                 </table>
             );
@@ -95,4 +95,4 @@ class GetProducts extends Component {
     }
 
 }
-export default GetUsers;
+export default GetProducts;

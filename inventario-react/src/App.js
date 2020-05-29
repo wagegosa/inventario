@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import AllProducts from './components/GetProducts';
+import AddProduct from './components/AddProduct';
+import Actions from './Actions/Actions';
 
 class App extends Actions {
   render(){
