@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import {Provider} from './Context';
 import './App.css';
 import AllProducts from './components/GetProducts';
 import AddProduct from './components/AddProduct';

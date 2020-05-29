@@ -56,7 +56,7 @@ class GetProducts extends Component {
                 );
         });
 
-        if (this.context.all_users.length > 0) {
+        if (this.context.all_products.length > 0) {
             mainData = (
                 <table className="table table-striped table-bordered">
                     <thead>
@@ -81,7 +81,7 @@ class GetProducts extends Component {
         else {
             mainData = (
                 <div className="alert alert-light" role="alert">
-                    <h4 className="alert-heading">No User Found!</h4>
+                    <h4 className="alert-heading">No se encontro producto!</h4>
                     <hr />
                     <p>Profavor Ingrese un productos.</p>
                 </div>
