@@ -21,13 +21,13 @@ class App extends Actions {
         <div className="container-fluid bg-light">
               <div className="container p-5">
                   <div className="card shadow-sm">
-                      <h1 className="card-header text-center text-uppercase text-muted">React PHP CRUD Application</h1>
+                      <h1 className="card-header text-center text-uppercase text-muted">Inventario</h1>
                       <div className="card-body">
                           <div className="row">
-                              <div className="col-md-4">
+                              <div className="col-md-6">
                                   <AddProduct/>
                               </div>
-                              <div className="col-md-8">
+                              <div className="col-md-6">
                                 <AllProducts/>
                               </div>
                           </div>
