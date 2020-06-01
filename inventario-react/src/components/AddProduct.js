@@ -14,7 +14,7 @@ class AddProduct extends Component {
                 <div className="form-row">
                     <div className="form-group col-sm-6">
                         <label className="font-weight-bold">Nombre Producto</label>
-                        <input type="text" name="nombreProducto" ref={(val) => this.nombreProducto = val} className="form-control" placeholder="Name" />
+                        <input type="text" name="nombreProducto" ref={(val) => this.nombreProducto = val} className="form-control" placeholder="Nombre Producto" />
                     </div>
                     <div className="form-group col-sm-6">
                         <label className="font-weight-bold">Referencia</label>
@@ -42,11 +42,11 @@ class AddProduct extends Component {
                     </div>
                     <div className="form-group col-sm-6">
                         <label className="font-weight-bold">Fecha Ultima Venta</label>
-                        <input type="datedatetime-local" name="fechaVentaUltima" ref={(val) => this.fechaVentaUltima = val} className="form-control" placeholder="fechaVentaUltima" />
+                        <input type="datetime-local" name="fechaVentaUltima" ref={(val) => this.fechaVentaUltima = val} className="form-control" placeholder="fechaVentaUltima" />
                     </div>
 
                     <div className="form-group col-sm-12 text-right">
-                        <button type="submit" className="btn btn-primary">Add user</button>
+                        <button type="submit" className="btn btn-primary">Guardar</button>
                     </div>
                 </div>
             </form>
